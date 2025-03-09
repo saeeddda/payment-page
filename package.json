@@ -1,0 +1,18 @@
+{
+  "name": "payment-page",
+  "version": "1.0",
+  "keywords": [],
+  "author": {
+    "name": "saeed noori",
+    "email": "noori.saeed1375@gmail.com",
+    "url": "https://saeedna.ir"
+  },
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i ./src/style.css -o ./pages/assets/css/style.css --minify",
+    "dev": "npx @tailwindcss/cli -i ./src/style.css -o ./pages/assets/css/style.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.12",
+    "tailwindcss": "^4.0.12"
+  }
+}
